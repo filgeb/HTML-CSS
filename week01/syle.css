@@ -1,0 +1,27 @@
+body {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+body {
+    background: linear-gradient(-70deg, #fa7c30 10%, rgba(0, 0, 0, 0) 90%), url('planets.jpg');
+}
+.top {
+    font-size: 35px; font-family: 'Times New Roman'; color:yellow; text-align: center;
+}
+.left {
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}

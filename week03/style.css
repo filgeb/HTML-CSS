@@ -1,0 +1,681 @@
+@font-face {
+    font-family: 'bodoni_egyptian_probold';
+    src: url(/wp-content/themes/muumimuseo/fonts/shinntype_-_bodoniegyptianpro-bold-webfont.woff2) format('woff2'), url(/wp-content/themes/muumimuseo/fonts/shinntype_-_bodoniegyptianpro-bold-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'bodoni_egyptian_promedium';
+    src: url(/wp-content/themes/muumimuseo/fonts/shinntype_-_bodoniegyptianpro-medium-webfont.woff2) format('woff2'), url(/wp-content/themes/muumimuseo/fonts/shinntype_-_bodoniegyptianpro-medium-webfont.woff) format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+body {
+    font-size: 16px;
+    font-family: 'bodoni_egyptian_promedium'
+}
+
+a {
+    color: #32804B
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'bodoni_egyptian_probold'
+}
+
+h2,
+h3 {
+    margin-top: 0
+}
+
+header {
+    background: url(/wp-content/themes/muumimuseo/images/bg-header-muumimuseo.png) 100% 0 no-repeat #fff
+}
+
+header .logo {
+    margin: 16px 3% 20px
+}
+
+header .navigation-tampere-talo {
+    font-family: "Montserrat", sans-serif
+}
+
+header .navigation-tampere-talo>ul>li>a {
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+header .navigation-tampere-talo>ul>li>ul {
+    z-index: 2000;
+    background: #35733c
+}
+
+header .navigation-tampere-talo>ul>li.current-menu-item>a,
+header .navigation-tampere-talo>ul>li.current-page-ancestor>a {
+    color: #35733c;
+    font-weight: 600
+}
+
+header .navigation-tampere-talo>ul>li>ul.sub-menu>li.current-menu-item a {
+    color: #fff;
+    text-decoration: underline
+}
+
+header .navigation-tampere-talo>ul>li>ul.sub-menu>li>a:hover {
+    color: #fff;
+    text-decoration: underline
+}
+
+.slideout-panel {
+    background-color: #060000;
+}
+
+.hamburger-menu .bar1,
+.hamburger-menu .bar2,
+.hamburger-menu .bar3 {
+    background-color: #32804B
+}
+
+.navbar-on.hamburger-menu .bar1,
+.navbar-on.hamburger-menu .bar3 {
+    background-color: #32804B
+}
+
+.navbar-on.hamburger-menu .bar2 {
+    background-color: transparent
+}
+
+.front-mainbanner-top img {
+    width: 100%
+}
+
+.front-mainbanner-bottom-wrap {
+    position: relative
+}
+
+.front-mainbanner-text-wrap {
+    position: absolute;
+    left: 0;
+    top: -26px;
+    width: 100%;
+    z-index: 1000;
+    padding: 0 80px
+}
+
+.front-mainbanner-text {
+    background: #080000;
+    text-align: center;
+    padding: 10px 85px 15px;
+    position: relative;
+    margin: 0 auto;
+    width: 750px;
+    max-width: 100%;
+    float: none;
+}
+
+.front-mainbanner-text h1 {
+    color: #35733c;
+    font-size: 44px;
+    font-family: 'bodoni_egyptian_promedium'
+}
+
+.front-mainbanner-text h2 {
+    font-family: 'bodoni_egyptian_promedium'
+}
+
+.front-mainbanner-text .circle-orange-wrap {
+    position: absolute;
+    right: -30px;
+    bottom: -25px
+}
+
+.front-mainbanner-bottom {
+    padding: 0
+}
+
+.front-mainbanner-bottom img {
+    width: 100%
+}
+
+html[lang="ru-RU"] .front-mainbanner-text h1 {
+    font-size: 30px
+}
+
+html[lang="ru-RU"] .front-mainbanner-text h2 {
+    font-size: 22px
+}
+
+html[lang="ru-RU"] .front-mainbanner-text .circle-orange-wrap .circle-orange {
+    font-size: 18px;
+    padding-top: 45px
+}
+
+html[lang="ja"] .front-mainbanner-text h1 {
+    font-size: 38px
+}
+
+html[lang="ja"] .front-mainbanner-text h2 {
+    font-size: 24px
+}
+
+html[lang="ja"] .front-mainbanner-text .circle-orange-wrap .circle-orange {
+    font-size: 28px;
+    padding-top: 36px
+}
+
+html[lang="en-US"] .front-mainbanner-text h1 {
+    font-size: 38px
+}
+
+.front-info-block {
+    color: #fff;
+    background: #35733c;
+    padding: 15px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px
+}
+
+.front-info-block-text {
+    padding-top: 10px
+}
+
+.front-title-block {
+    position: relative;
+    color: #fff;
+    background: #363636;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center
+}
+
+.front-title-block h2 {
+    font-size: 50px;
+    font-family: 'bodoni_egyptian_promedium';
+    font-weight: 400;
+    z-index: 1000
+}
+
+.front-title-block .eyes-left {
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
+.front-title-block .eyes-right {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.front-news-block {
+    padding: 0
+}
+
+.front-news-block-small {
+    padding: 0
+}
+
+.front-news-block-small a {
+    color: #f7f4f4;
+}
+
+.front-news-block-small a:hover {
+    text-decoration: none;
+    color: #35753c
+}
+
+.front-news-text {
+    padding: 30px
+}
+
+.front-news-date {
+    color: #35733c
+}
+
+.front-news-image {
+    max-height: 600px;
+    overflow: hidden
+}
+
+.front-news-image img {
+    width: 100%
+}
+
+.front-news-bodoni {
+    font-family: 'bodoni_egyptian_promedium';
+    font-size: 16px
+}
+
+.news-archive-container .row .col-md-3 {
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.news-archive-container .news-archive-latest .row .col-md-3 {
+    height: 300px
+}
+
+.news-archive-latest .news-archive-latest-content {
+    padding: 20px 10px 0 10px
+}
+
+.news-archive-latest .news-archive-latest-content .latest-news-date {
+    font-weight: 700;
+    padding-bottom: 2px
+}
+
+.news-archive-latest .news-archive-latest-content h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px
+}
+
+.news-archive-others {
+    padding: 50px 0 0 0
+}
+
+.news-archive-others table td {
+    padding: 5px
+}
+
+.front-event-block {
+    background: #7ab7bc;
+    color: #404041;
+    text-align: center;
+    padding: 40px 0
+}
+
+.front-event-block h3 {
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 0
+}
+
+.front-event-block a {
+    color: #404041
+}
+
+.front-event-block a:hover {
+    text-decoration: none
+}
+
+.front-event-block a h3 {
+    color: #fff
+}
+
+.front-event-text {
+    padding-bottom: 15px
+}
+
+.front-event-image img {
+    width: 100%
+}
+
+.front-event-block .circle-orange-wrap {
+    position: relative
+}
+
+.front-event-block .circle-orange-wrap .circle-orange {
+    position: absolute;
+    right: 50px;
+    top: 0
+}
+
+.quote-wrap {
+    padding: 30px 0
+}
+
+.quote-block {
+    text-align: center;
+    font-size: 44px;
+    line-height: 1.1
+}
+
+.quote-block .quote-name {
+    font-family: 'bodoni_egyptian_promedium';
+    color: #35733c;
+    font-size: 30px;
+    padding-top: 20px
+}
+
+.subpage-display-image img {
+    width: 100%
+}
+
+.subpage-display-text {
+    padding-bottom: 15px
+}
+
+.subpage-single-display {
+    padding-top: 20px
+}
+
+.single-display-image {
+    text-align: center
+}
+
+.single-display-text {
+    padding-bottom: 15px
+}
+
+.info-image img {
+    width: 100%
+}
+
+.info-text {
+    padding-bottom: 15px
+}
+
+.circle-orange {
+    background: #3be90f;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+.subpage-maintitle-block {
+    padding: 80px 0;
+    background-color: #363636;
+    color: #fff;
+    text-align: center;
+    position: relative
+}
+
+.subpage-maintitle-block h1 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1000;
+    font-family: 'bodoni_egyptian_promedium';
+    font-weight: 400;
+    font-size: 50px
+}
+
+.subpage-maintitle-block .eyes-left {
+    position: absolute;
+    left: 30px;
+    bottom: 5px
+}
+
+.subpage-maintitle-block .eyes-right {
+    position: absolute;
+    right: 30px;
+    top: 5px
+}
+
+.news-single-container,
+.news-archive-container {
+    padding: 30px 0
+}
+
+.latest-news-container ul li .latest-news-date {
+    font-size: 12px
+}
+
+.latest-news-container ul li a {
+    display: block;
+    padding: 3px 0 10px 0
+}
+
+.news-single-image {
+    margin-bottom: 30px
+}
+
+.content-block-text {
+    padding: 30px 15px
+}
+
+.content-image {
+    padding: 0
+}
+
+.content-image img {
+    width: 100%
+}
+
+.iframe-container {
+    margin: 60px 0
+}
+
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto
+}
+
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.maincontent-container {
+    font-size: 16px;
+    font-family: 'bodoni_egyptian_promedium'
+}
+
+.calendar .month-tr {
+    background: #42984c;
+    color: #fff
+}
+
+.calendar .month-tr td,
+.calendar .month-tr th {
+    -webkit-border-radius: 0!important;
+    border-radius: 0!important
+}
+
+.calendar .month-tr td:hover,
+.calendar .month-tr th:hover {
+    background: #35733c!important
+}
+
+td.day {
+    background: #42984c;
+    ´-webkit-border-radius: 0!important;
+    border-radius: 0!important;
+    color: #fff
+}
+
+td.day:hover {
+    background: #42984c
+}
+
+.datepicker table.table-condensed tr td.day:hover,
+.datepicker table.table-condensed tr td.focused {
+    background: #35733c
+}
+
+.datepicker table.table-condensed tr td.disabled,
+.datepicker table.table-condensed tr td.disabled:hover {
+    background: 0 0
+}
+
+.datepicker table.table-condensed tr td.active,
+.datepicker table tr td span.active {
+    background: #35733c!important;
+    border-color: #35733c!important
+}
+
+.front-news-carousel .carousel-inner>.item {
+    height: auto!important
+}
+
+.front-news-carousel .carousel-control.right,
+.front-news-carousel .carousel-control.left {
+    background-image: none
+}
+
+.front-news-carousel .carousel-control {
+    opacity: 1
+}
+
+.container-event .event-list-item .date {
+    color: #42984c
+}
+
+.btn-primary {
+    background: #32804b;
+    border: 1px solid #32804b
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: #35733c;
+    border: 1px solid #32804b
+}
+
+.metadata-events {
+    background: rgba(0, 0, 0, 0) url(/wp-content/themes/muumimuseo/images/bg-footer-navi.jpg) repeat scroll 0 0 / cover
+}
+
+.content-columns-container {
+    margin: 30px 0
+}
+
+footer .site-links {
+    padding: 100px 15px 60px
+}
+
+footer .footer-company {
+    margin-bottom: 10px
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px
+}
+
+footer .footer-navigation {
+    background-image: url(/wp-content/themes/muumimuseo/images/bg-footer-navi.jpg)
+}
+
+footer .footer-logos a {
+    color: #32804B
+}
+
+footer .footer-navigation a:focus,
+footer .footer-navigation a:hover {
+    color: #fff
+}
+
+@media screen and (max-width:1200px) {
+    header .navigation-tampere-talo>ul>li>a {
+        padding: 40px 5px
+    }
+}
+
+@media screen and (max-width:1080px) {
+    header {
+        background: none
+    }
+}
+
+@media screen and (max-width:991px) {
+    .front-title-block h2 {
+        font-size: 50px
+    }
+    .front-mainbanner-text-wrap {
+        position: static;
+        padding: 0 40px
+    }
+    .front-mainbanner-text .circle-orange-wrap {
+        bottom: 0
+    }
+    .front-info-block-card {
+        margin: 10px 0
+    }
+    .front-event-block .circle-orange-wrap .circle-orange {
+        position: static;
+        margin: 15px auto
+    }
+    footer .footer-logos .some-icons {
+        padding: 0
+    }
+    .site-links-logo {
+        margin-bottom: 20px
+    }
+    .col-md-6>.content-block-text {
+        padding: 30px 0
+    }
+}
+
+@media screen and (max-width:767px) {
+    .front-title-block h2 {
+        font-size: 36px
+    }
+    .front-mainbanner-text h1 {
+        font-size: 36px
+    }
+    .quote-block {
+        font-size: 20px
+    }
+    .front-mainbanner-text-wrap {
+        top: -160px
+    }
+    .footer-logos-block {
+        text-align: left!important;
+        margin: 10px 0
+    }
+}
+
+@media screen and (max-width:650px) {
+    .front-mainbanner-text .circle-orange-wrap {
+        position: static
+    }
+    .front-mainbanner-text-wrap {
+        padding: 0
+    }
+    .front-mainbanner-text .circle-orange-wrap .circle-orange {
+        margin: 15px auto
+    }
+    .front-mainbanner-text {
+        padding: 15px
+    }
+    .front-mainbanner-bottom {
+        width: 100%
+    }
+    .front-mainbanner-text-wrap {
+        top: -80px
+    }
+    .subpage-maintitle-block h1 {
+        font-size: 40px
+    }
+}
+
+@media screen and (max-width:460px) {
+    .subpage-maintitle-block .eyes-left {
+        display: none
+    }
+    .subpage-maintitle-block .eyes-right {
+        display: none
+    }
+    .front-title-block .eyes-left {
+        display: none
+    }
+    .front-title-block .eyes-right {
+        display: none
+    }
+    .footer-navi-block {
+        width: 100%!important;
+        margin-bottom: 15px
+    }
+}
